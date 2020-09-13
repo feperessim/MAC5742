@@ -1,0 +1,1569 @@
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         43.865,39 msec task-clock:u              #    1,911 CPUs utilized            ( +-  0,33% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           285.880      page-faults:u             #    0,007 M/sec                    ( +-  1,36% )
+   145.518.018.103      cycles:u                  #    3,317 GHz                      ( +-  0,01% )
+   260.279.232.478      instructions:u            #    1,79  insn per cycle           ( +-  0,04% )
+    46.185.367.744      branches:u                # 1052,888 M/sec                    ( +-  0,05% )
+        83.665.125      branch-misses:u           #    0,18% of all branches          ( +-  0,28% )
+
+           22,9537 +- 0,0805 seconds time elapsed  ( +-  0,35% )
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         40.727,63 msec task-clock:u              #    2,642 CPUs utilized            ( +-  0,88% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           282.111      page-faults:u             #    0,007 M/sec                    ( +-  0,46% )
+   134.888.591.053      cycles:u                  #    3,312 GHz                      ( +-  0,67% )
+   199.235.726.907      instructions:u            #    1,48  insn per cycle           ( +-  0,39% )
+    32.875.265.092      branches:u                #  807,198 M/sec                    ( +-  0,52% )
+        60.837.190      branch-misses:u           #    0,19% of all branches          ( +-  3,97% )
+
+            15,417 +- 0,121 seconds time elapsed  ( +-  0,78% )
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         41.989,56 msec task-clock:u              #    2,743 CPUs utilized            ( +-  0,35% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           281.850      page-faults:u             #    0,007 M/sec                    ( +-  0,05% )
+   137.968.286.784      cycles:u                  #    3,286 GHz                      ( +-  0,01% )
+   199.354.247.579      instructions:u            #    1,44  insn per cycle           ( +-  0,07% )
+    32.900.815.219      branches:u                #  783,548 M/sec                    ( +-  0,09% )
+        59.713.517      branch-misses:u           #    0,18% of all branches          ( +-  0,29% )
+
+           15,3104 +- 0,0598 seconds time elapsed  ( +-  0,39% )
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         42.809,08 msec task-clock:u              #    2,753 CPUs utilized            ( +-  0,40% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           282.035      page-faults:u             #    0,007 M/sec                    ( +-  0,02% )
+   141.355.910.985      cycles:u                  #    3,302 GHz                      ( +-  0,15% )
+   201.718.202.655      instructions:u            #    1,43  insn per cycle           ( +-  0,10% )
+    33.416.275.396      branches:u                #  780,589 M/sec                    ( +-  0,13% )
+        59.695.482      branch-misses:u           #    0,18% of all branches          ( +-  1,66% )
+
+           15,5492 +- 0,0701 seconds time elapsed  ( +-  0,45% )
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         43.511,80 msec task-clock:u              #    2,758 CPUs utilized            ( +-  0,32% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           286.258      page-faults:u             #    0,007 M/sec                    ( +-  1,69% )
+   142.845.978.967      cycles:u                  #    3,283 GHz                      ( +-  0,06% )
+   201.127.404.874      instructions:u            #    1,41  insn per cycle           ( +-  0,28% )
+    33.287.448.507      branches:u                #  765,021 M/sec                    ( +-  0,37% )
+        60.154.841      branch-misses:u           #    0,18% of all branches          ( +-  0,40% )
+
+           15,7746 +- 0,0569 seconds time elapsed  ( +-  0,36% )
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         43.706,73 msec task-clock:u              #    2,765 CPUs utilized            ( +-  0,33% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           281.623      page-faults:u             #    0,006 M/sec                    ( +-  0,05% )
+   143.711.509.052      cycles:u                  #    3,288 GHz                      ( +-  0,04% )
+   203.290.081.277      instructions:u            #    1,41  insn per cycle           ( +-  0,23% )
+    33.759.019.757      branches:u                #  772,399 M/sec                    ( +-  0,31% )
+        59.045.655      branch-misses:u           #    0,17% of all branches          ( +-  1,56% )
+
+           15,8083 +- 0,0549 seconds time elapsed  ( +-  0,35% )
+
+
+ Performance counter stats for 'mpirun -n 2 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         44.573,27 msec task-clock:u              #    2,764 CPUs utilized            ( +-  0,30% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           281.314      page-faults:u             #    0,006 M/sec                    ( +-  0,02% )
+   144.133.768.949      cycles:u                  #    3,234 GHz                      ( +-  0,02% )
+   203.301.748.840      instructions:u            #    1,41  insn per cycle           ( +-  0,15% )
+    33.761.568.318      branches:u                #  757,440 M/sec                    ( +-  0,19% )
+        60.411.693      branch-misses:u           #    0,18% of all branches          ( +-  1,12% )
+
+           16,1264 +- 0,0532 seconds time elapsed  ( +-  0,33% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         33.151,42 msec task-clock:u              #    3,427 CPUs utilized            ( +-  0,36% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           335.548      page-faults:u             #    0,010 M/sec                    ( +-  1,82% )
+   106.877.546.327      cycles:u                  #    3,224 GHz                      ( +-  0,18% )
+   170.795.950.225      instructions:u            #    1,60  insn per cycle           ( +-  0,26% )
+    26.675.854.747      branches:u                #  804,667 M/sec                    ( +-  0,36% )
+        41.132.911      branch-misses:u           #    0,15% of all branches          ( +-  0,39% )
+
+            9,6746 +- 0,0805 seconds time elapsed  ( +-  0,83% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         29.664,51 msec task-clock:u              #    4,979 CPUs utilized            ( +-  0,54% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           294.371      page-faults:u             #    0,010 M/sec                    ( +-  0,04% )
+    90.180.603.669      cycles:u                  #    3,040 GHz                      ( +-  0,13% )
+   130.590.091.501      instructions:u            #    1,45  insn per cycle           ( +-  0,26% )
+    17.909.875.767      branches:u                #  603,748 M/sec                    ( +-  0,41% )
+        28.987.978      branch-misses:u           #    0,16% of all branches          ( +-  0,90% )
+
+            5,9577 +- 0,0183 seconds time elapsed  ( +-  0,31% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         28.805,39 msec task-clock:u              #    7,128 CPUs utilized            ( +-  0,75% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           313.524      page-faults:u             #    0,011 M/sec                    ( +-  1,40% )
+    83.515.321.099      cycles:u                  #    2,899 GHz                      ( +-  0,10% )
+   113.726.045.705      instructions:u            #    1,36  insn per cycle           ( +-  0,19% )
+    14.234.348.435      branches:u                #  494,156 M/sec                    ( +-  0,33% )
+        23.571.823      branch-misses:u           #    0,17% of all branches          ( +-  0,54% )
+
+            4,0414 +- 0,0268 seconds time elapsed  ( +-  0,66% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         31.465,89 msec task-clock:u              #    9,882 CPUs utilized            ( +-  0,27% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           299.783      page-faults:u             #    0,010 M/sec                    ( +-  1,24% )
+    81.933.712.573      cycles:u                  #    2,604 GHz                      ( +-  0,29% )
+   106.876.082.708      instructions:u            #    1,30  insn per cycle           ( +-  0,35% )
+    12.744.133.563      branches:u                #  405,014 M/sec                    ( +-  0,64% )
+        21.395.613      branch-misses:u           #    0,17% of all branches          ( +-  0,57% )
+
+            3,1843 +- 0,0536 seconds time elapsed  ( +-  1,68% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         39.040,15 msec task-clock:u              #   14,188 CPUs utilized            ( +-  0,16% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           293.073      page-faults:u             #    0,008 M/sec                    ( +-  0,03% )
+    98.783.967.740      cycles:u                  #    2,530 GHz                      ( +-  0,14% )
+   104.794.395.597      instructions:u            #    1,06  insn per cycle           ( +-  0,20% )
+    12.297.921.596      branches:u                #  315,007 M/sec                    ( +-  0,37% )
+        20.808.498      branch-misses:u           #    0,17% of all branches          ( +-  0,45% )
+
+            2,7516 +- 0,0220 seconds time elapsed  ( +-  0,80% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         44.076,58 msec task-clock:u              #   16,015 CPUs utilized            ( +-  0,18% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           292.550      page-faults:u             #    0,007 M/sec                    ( +-  0,05% )
+   110.113.364.330      cycles:u                  #    2,498 GHz                      ( +-  0,08% )
+   106.391.196.188      instructions:u            #    0,97  insn per cycle           ( +-  0,18% )
+    12.663.675.164      branches:u                #  287,311 M/sec                    ( +-  0,32% )
+        22.242.475      branch-misses:u           #    0,18% of all branches          ( +-  2,39% )
+
+            2,7522 +- 0,0220 seconds time elapsed  ( +-  0,80% )
+
+
+ Performance counter stats for 'mpirun -n 4 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         39.994,48 msec task-clock:u              #   14,121 CPUs utilized            ( +-  0,32% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           292.109      page-faults:u             #    0,007 M/sec                    ( +-  0,04% )
+   101.793.290.500      cycles:u                  #    2,545 GHz                      ( +-  0,15% )
+   107.148.410.725      instructions:u            #    1,05  insn per cycle           ( +-  0,28% )
+    12.797.619.255      branches:u                #  319,985 M/sec                    ( +-  0,52% )
+        21.817.290      branch-misses:u           #    0,17% of all branches          ( +-  0,94% )
+
+            2,8323 +- 0,0847 seconds time elapsed  ( +-  2,99% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         31.442,30 msec task-clock:u              #    4,745 CPUs utilized            ( +-  0,71% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           347.410      page-faults:u             #    0,011 M/sec                    ( +-  1,95% )
+    98.933.738.628      cycles:u                  #    3,147 GHz                      ( +-  0,20% )
+   151.910.323.453      instructions:u            #    1,54  insn per cycle           ( +-  0,33% )
+    22.557.371.217      branches:u                #  717,421 M/sec                    ( +-  0,48% )
+        36.358.326      branch-misses:u           #    0,16% of all branches          ( +-  0,86% )
+
+            6,6266 +- 0,0321 seconds time elapsed  ( +-  0,48% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         29.204,23 msec task-clock:u              #    6,682 CPUs utilized            ( +-  0,80% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           307.088      page-faults:u             #    0,011 M/sec                    ( +-  0,06% )
+    87.326.124.990      cycles:u                  #    2,990 GHz                      ( +-  0,22% )
+   123.459.534.880      instructions:u            #    1,41  insn per cycle           ( +-  0,39% )
+    16.355.094.309      branches:u                #  560,025 M/sec                    ( +-  0,65% )
+        27.055.758      branch-misses:u           #    0,17% of all branches          ( +-  0,68% )
+
+            4,3707 +- 0,0529 seconds time elapsed  ( +-  1,21% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         31.258,59 msec task-clock:u              #    9,284 CPUs utilized            ( +-  0,61% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           309.080      page-faults:u             #    0,010 M/sec                    ( +-  0,56% )
+    83.230.793.363      cycles:u                  #    2,663 GHz                      ( +-  0,28% )
+   111.193.528.192      instructions:u            #    1,34  insn per cycle           ( +-  0,47% )
+    13.683.381.806      branches:u                #  437,748 M/sec                    ( +-  0,83% )
+        23.397.975      branch-misses:u           #    0,17% of all branches          ( +-  0,82% )
+
+            3,3671 +- 0,0272 seconds time elapsed  ( +-  0,81% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         36.408,79 msec task-clock:u              #   12,750 CPUs utilized            ( +-  0,20% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           305.886      page-faults:u             #    0,008 M/sec                    ( +-  0,06% )
+    92.117.705.605      cycles:u                  #    2,530 GHz                      ( +-  0,20% )
+   108.125.269.414      instructions:u            #    1,17  insn per cycle           ( +-  0,31% )
+    13.020.157.243      branches:u                #  357,610 M/sec                    ( +-  0,56% )
+        22.616.818      branch-misses:u           #    0,17% of all branches          ( +-  0,53% )
+
+            2,8557 +- 0,0732 seconds time elapsed  ( +-  2,56% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         43.873,95 msec task-clock:u              #   15,699 CPUs utilized            ( +-  0,15% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           304.158      page-faults:u             #    0,007 M/sec                    ( +-  0,09% )
+   110.786.233.394      cycles:u                  #    2,525 GHz                      ( +-  0,19% )
+   113.615.117.981      instructions:u            #    1,03  insn per cycle           ( +-  0,42% )
+    14.231.937.197      branches:u                #  324,382 M/sec                    ( +-  0,73% )
+        23.998.640      branch-misses:u           #    0,17% of all branches          ( +-  0,67% )
+
+            2,7946 +- 0,0336 seconds time elapsed  ( +-  1,20% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         47.862,31 msec task-clock:u              #   16,315 CPUs utilized            ( +-  0,14% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           303.819      page-faults:u             #    0,006 M/sec                    ( +-  0,07% )
+   122.951.066.837      cycles:u                  #    2,569 GHz                      ( +-  0,21% )
+   120.101.172.223      instructions:u            #    0,98  insn per cycle           ( +-  0,49% )
+    15.673.723.830      branches:u                #  327,475 M/sec                    ( +-  0,81% )
+        26.806.753      branch-misses:u           #    0,17% of all branches          ( +-  1,52% )
+
+            2,9336 +- 0,0273 seconds time elapsed  ( +-  0,93% )
+
+
+ Performance counter stats for 'mpirun -n 6 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         41.828,83 msec task-clock:u              #   14,692 CPUs utilized            ( +-  0,23% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           303.363      page-faults:u             #    0,007 M/sec                    ( +-  0,08% )
+   107.825.564.468      cycles:u                  #    2,578 GHz                      ( +-  0,19% )
+   120.252.610.919      instructions:u            #    1,12  insn per cycle           ( +-  0,42% )
+    15.654.422.149      branches:u                #  374,250 M/sec                    ( +-  0,70% )
+        27.159.263      branch-misses:u           #    0,17% of all branches          ( +-  1,50% )
+
+            2,8471 +- 0,0361 seconds time elapsed  ( +-  1,27% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         31.180,70 msec task-clock:u              #    5,874 CPUs utilized            ( +-  0,68% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           319.636      page-faults:u             #    0,010 M/sec                    ( +-  0,07% )
+    95.793.596.153      cycles:u                  #    3,072 GHz                      ( +-  0,22% )
+   144.328.796.040      instructions:u            #    1,51  insn per cycle           ( +-  0,32% )
+    20.903.654.993      branches:u                #  670,404 M/sec                    ( +-  0,48% )
+        34.228.820      branch-misses:u           #    0,16% of all branches          ( +-  0,62% )
+
+            5,3082 +- 0,0427 seconds time elapsed  ( +-  0,81% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         30.718,37 msec task-clock:u              #    7,950 CPUs utilized            ( +-  0,82% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           374.356      page-faults:u             #    0,012 M/sec                    ( +-  1,59% )
+    87.461.609.424      cycles:u                  #    2,847 GHz                      ( +-  0,33% )
+   122.855.229.612      instructions:u            #    1,40  insn per cycle           ( +-  0,53% )
+    16.223.433.368      branches:u                #  528,135 M/sec                    ( +-  0,88% )
+        27.527.557      branch-misses:u           #    0,17% of all branches          ( +-  1,50% )
+
+            3,8640 +- 0,0560 seconds time elapsed  ( +-  1,45% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         32.970,31 msec task-clock:u              #   11,226 CPUs utilized            ( +-  0,21% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           326.474      page-faults:u             #    0,010 M/sec                    ( +-  0,85% )
+    84.253.927.015      cycles:u                  #    2,555 GHz                      ( +-  0,19% )
+   111.381.397.692      instructions:u            #    1,32  insn per cycle           ( +-  0,27% )
+    13.725.469.434      branches:u                #  416,298 M/sec                    ( +-  0,48% )
+        23.823.638      branch-misses:u           #    0,17% of all branches          ( +-  0,53% )
+
+            2,9369 +- 0,0242 seconds time elapsed  ( +-  0,82% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         42.041,69 msec task-clock:u              #   15,348 CPUs utilized            ( +-  0,17% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           317.458      page-faults:u             #    0,008 M/sec                    ( +-  0,09% )
+   107.107.010.272      cycles:u                  #    2,548 GHz                      ( +-  0,20% )
+   119.348.339.116      instructions:u            #    1,11  insn per cycle           ( +-  0,37% )
+    15.471.325.133      branches:u                #  368,000 M/sec                    ( +-  0,62% )
+        26.791.807      branch-misses:u           #    0,17% of all branches          ( +-  0,85% )
+
+            2,7392 +- 0,0209 seconds time elapsed  ( +-  0,76% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         46.114,30 msec task-clock:u              #   16,469 CPUs utilized            ( +-  0,35% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           315.856      page-faults:u             #    0,007 M/sec                    ( +-  0,08% )
+   119.097.637.080      cycles:u                  #    2,583 GHz                      ( +-  0,30% )
+   124.254.362.240      instructions:u            #    1,04  insn per cycle           ( +-  0,60% )
+    16.562.091.267      branches:u                #  359,153 M/sec                    ( +-  0,99% )
+        28.662.458      branch-misses:u           #    0,17% of all branches          ( +-  1,57% )
+
+            2,8000 +- 0,0251 seconds time elapsed  ( +-  0,90% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         51.338,67 msec task-clock:u              #   17,044 CPUs utilized            ( +-  0,24% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           315.466      page-faults:u             #    0,006 M/sec                    ( +-  0,10% )
+   134.373.666.448      cycles:u                  #    2,617 GHz                      ( +-  0,24% )
+   132.035.802.305      instructions:u            #    0,98  insn per cycle           ( +-  0,59% )
+    18.296.226.062      branches:u                #  356,383 M/sec                    ( +-  0,93% )
+        30.440.220      branch-misses:u           #    0,17% of all branches          ( +-  0,78% )
+
+            3,0121 +- 0,0349 seconds time elapsed  ( +-  1,16% )
+
+
+ Performance counter stats for 'mpirun -n 8 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         43.466,77 msec task-clock:u              #   14,702 CPUs utilized            ( +-  0,29% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           315.248      page-faults:u             #    0,007 M/sec                    ( +-  0,07% )
+   112.389.083.017      cycles:u                  #    2,586 GHz                      ( +-  0,37% )
+   130.456.682.065      instructions:u            #    1,16  insn per cycle           ( +-  0,74% )
+    17.878.892.316      branches:u                #  411,323 M/sec                    ( +-  1,18% )
+        30.306.273      branch-misses:u           #    0,17% of all branches          ( +-  1,16% )
+
+            2,9565 +- 0,0703 seconds time elapsed  ( +-  2,38% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         31.562,71 msec task-clock:u              #    6,403 CPUs utilized            ( +-  0,88% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           345.679      page-faults:u             #    0,011 M/sec                    ( +-  2,02% )
+    94.841.398.231      cycles:u                  #    3,005 GHz                      ( +-  0,17% )
+   141.796.796.782      instructions:u            #    1,50  insn per cycle           ( +-  0,31% )
+    20.351.137.141      branches:u                #  644,784 M/sec                    ( +-  0,47% )
+        34.492.194      branch-misses:u           #    0,17% of all branches          ( +-  0,68% )
+
+            4,9294 +- 0,0911 seconds time elapsed  ( +-  1,85% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         31.685,78 msec task-clock:u              #    8,439 CPUs utilized            ( +-  0,58% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           331.933      page-faults:u             #    0,010 M/sec                    ( +-  0,05% )
+    87.900.589.922      cycles:u                  #    2,774 GHz                      ( +-  0,29% )
+   123.566.510.427      instructions:u            #    1,41  insn per cycle           ( +-  0,47% )
+    16.378.533.343      branches:u                #  516,905 M/sec                    ( +-  0,77% )
+        28.376.663      branch-misses:u           #    0,17% of all branches          ( +-  0,77% )
+
+            3,7545 +- 0,0791 seconds time elapsed  ( +-  2,11% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         35.863,89 msec task-clock:u              #   11,583 CPUs utilized            ( +-  0,32% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           331.614      page-faults:u             #    0,009 M/sec                    ( +-  0,16% )
+    90.944.621.204      cycles:u                  #    2,536 GHz                      ( +-  0,24% )
+   115.323.036.781      instructions:u            #    1,27  insn per cycle           ( +-  0,44% )
+    14.586.054.096      branches:u                #  406,706 M/sec                    ( +-  0,76% )
+        26.011.368      branch-misses:u           #    0,18% of all branches          ( +-  0,94% )
+
+            3,0962 +- 0,0740 seconds time elapsed  ( +-  2,39% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         44.669,48 msec task-clock:u              #   14,825 CPUs utilized            ( +-  0,28% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           328.605      page-faults:u             #    0,007 M/sec                    ( +-  0,08% )
+   114.263.551.661      cycles:u                  #    2,558 GHz                      ( +-  0,29% )
+   127.492.832.009      instructions:u            #    1,12  insn per cycle           ( +-  0,67% )
+    17.252.634.519      branches:u                #  386,229 M/sec                    ( +-  1,08% )
+        29.574.799      branch-misses:u           #    0,17% of all branches          ( +-  0,89% )
+
+            3,0132 +- 0,0687 seconds time elapsed  ( +-  2,28% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         48.985,81 msec task-clock:u              #   15,983 CPUs utilized            ( +-  0,20% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           326.625      page-faults:u             #    0,007 M/sec                    ( +-  0,09% )
+   128.102.799.007      cycles:u                  #    2,615 GHz                      ( +-  0,28% )
+   137.054.790.714      instructions:u            #    1,07  insn per cycle           ( +-  0,64% )
+    19.363.510.099      branches:u                #  395,288 M/sec                    ( +-  0,99% )
+        33.356.185      branch-misses:u           #    0,17% of all branches          ( +-  1,34% )
+
+            3,0648 +- 0,0582 seconds time elapsed  ( +-  1,90% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         55.924,00 msec task-clock:u              #   16,433 CPUs utilized            ( +-  0,21% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           327.659      page-faults:u             #    0,006 M/sec                    ( +-  0,14% )
+   147.871.904.064      cycles:u                  #    2,644 GHz                      ( +-  0,24% )
+   147.508.701.143      instructions:u            #    1,00  insn per cycle           ( +-  0,56% )
+    21.691.635.378      branches:u                #  387,877 M/sec                    ( +-  0,83% )
+        35.796.961      branch-misses:u           #    0,17% of all branches          ( +-  1,09% )
+
+            3,4031 +- 0,0744 seconds time elapsed  ( +-  2,19% )
+
+
+ Performance counter stats for 'mpirun -n 10 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         45.219,55 msec task-clock:u              #   13,955 CPUs utilized            ( +-  0,31% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           326.395      page-faults:u             #    0,007 M/sec                    ( +-  0,07% )
+   118.121.268.341      cycles:u                  #    2,612 GHz                      ( +-  0,30% )
+   143.629.477.423      instructions:u            #    1,22  insn per cycle           ( +-  0,55% )
+    20.750.639.207      branches:u                #  458,886 M/sec                    ( +-  0,83% )
+        36.300.741      branch-misses:u           #    0,17% of all branches          ( +-  1,67% )
+
+            3,2404 +- 0,0913 seconds time elapsed  ( +-  2,82% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         32.347,90 msec task-clock:u              #    7,000 CPUs utilized            ( +-  0,78% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           349.993      page-faults:u             #    0,011 M/sec                    ( +-  0,51% )
+    95.266.297.336      cycles:u                  #    2,945 GHz                      ( +-  0,19% )
+   142.858.575.926      instructions:u            #    1,50  insn per cycle           ( +-  0,31% )
+    20.589.868.267      branches:u                #  636,513 M/sec                    ( +-  0,47% )
+        34.877.401      branch-misses:u           #    0,17% of all branches          ( +-  0,80% )
+
+            4,6209 +- 0,0840 seconds time elapsed  ( +-  1,82% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         33.515,08 msec task-clock:u              #    9,375 CPUs utilized            ( +-  0,44% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           344.590      page-faults:u             #    0,010 M/sec                    ( +-  0,04% )
+    88.462.935.237      cycles:u                  #    2,639 GHz                      ( +-  0,17% )
+   124.318.279.788      instructions:u            #    1,41  insn per cycle           ( +-  0,25% )
+    16.550.210.378      branches:u                #  493,814 M/sec                    ( +-  0,41% )
+        28.918.872      branch-misses:u           #    0,17% of all branches          ( +-  0,42% )
+
+            3,5748 +- 0,0854 seconds time elapsed  ( +-  2,39% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         39.567,72 msec task-clock:u              #   12,452 CPUs utilized            ( +-  0,24% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           342.442      page-faults:u             #    0,009 M/sec                    ( +-  0,10% )
+   100.950.469.104      cycles:u                  #    2,551 GHz                      ( +-  0,28% )
+   125.668.055.305      instructions:u            #    1,24  insn per cycle           ( +-  0,43% )
+    16.850.997.349      branches:u                #  425,877 M/sec                    ( +-  0,70% )
+        29.592.587      branch-misses:u           #    0,18% of all branches          ( +-  0,93% )
+
+            3,1777 +- 0,0972 seconds time elapsed  ( +-  3,06% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         47.084,89 msec task-clock:u              #   14,738 CPUs utilized            ( +-  0,31% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           339.569      page-faults:u             #    0,007 M/sec                    ( +-  0,08% )
+   122.425.845.393      cycles:u                  #    2,600 GHz                      ( +-  0,38% )
+   141.004.558.412      instructions:u            #    1,15  insn per cycle           ( +-  0,73% )
+    20.211.703.188      branches:u                #  429,261 M/sec                    ( +-  1,11% )
+        35.607.819      branch-misses:u           #    0,18% of all branches          ( +-  1,27% )
+
+            3,1949 +- 0,0653 seconds time elapsed  ( +-  2,04% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         51.849,02 msec task-clock:u              #   16,461 CPUs utilized            ( +-  0,42% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           337.617      page-faults:u             #    0,007 M/sec                    ( +-  0,15% )
+   137.103.663.033      cycles:u                  #    2,644 GHz                      ( +-  0,49% )
+   150.544.830.289      instructions:u            #    1,10  insn per cycle           ( +-  1,06% )
+    22.322.607.990      branches:u                #  430,531 M/sec                    ( +-  1,56% )
+        38.353.439      branch-misses:u           #    0,17% of all branches          ( +-  1,56% )
+
+            3,1497 +- 0,0665 seconds time elapsed  ( +-  2,11% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         60.055,73 msec task-clock:u              #   17,192 CPUs utilized            ( +-  0,29% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           339.218      page-faults:u             #    0,006 M/sec                    ( +-  0,11% )
+   160.245.723.284      cycles:u                  #    2,668 GHz                      ( +-  0,28% )
+   159.939.827.209      instructions:u            #    1,00  insn per cycle           ( +-  0,64% )
+    24.432.130.232      branches:u                #  406,824 M/sec                    ( +-  0,91% )
+        41.680.025      branch-misses:u           #    0,17% of all branches          ( +-  2,64% )
+
+            3,4932 +- 0,0618 seconds time elapsed  ( +-  1,77% )
+
+
+ Performance counter stats for 'mpirun -n 12 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         46.772,08 msec task-clock:u              #   14,510 CPUs utilized            ( +-  0,24% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           336.892      page-faults:u             #    0,007 M/sec                    ( +-  0,09% )
+   122.799.145.217      cycles:u                  #    2,625 GHz                      ( +-  0,37% )
+   154.182.348.470      instructions:u            #    1,26  insn per cycle           ( +-  0,69% )
+    23.058.920.104      branches:u                #  493,006 M/sec                    ( +-  1,00% )
+        39.741.497      branch-misses:u           #    0,17% of all branches          ( +-  1,89% )
+
+            3,2235 +- 0,0723 seconds time elapsed  ( +-  2,24% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         33.514,45 msec task-clock:u              #    7,939 CPUs utilized            ( +-  0,78% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           415.742      page-faults:u             #    0,012 M/sec                    ( +-  0,70% )
+    96.244.651.785      cycles:u                  #    2,872 GHz                      ( +-  0,32% )
+   144.731.099.197      instructions:u            #    1,50  insn per cycle           ( +-  0,50% )
+    20.989.729.202      branches:u                #  626,289 M/sec                    ( +-  0,76% )
+        37.113.075      branch-misses:u           #    0,18% of all branches          ( +-  1,60% )
+
+            4,2217 +- 0,0716 seconds time elapsed  ( +-  1,70% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         35.082,96 msec task-clock:u              #   10,409 CPUs utilized            ( +-  0,33% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           386.629      page-faults:u             #    0,011 M/sec                    ( +-  1,10% )
+    90.488.534.649      cycles:u                  #    2,579 GHz                      ( +-  0,39% )
+   128.197.541.238      instructions:u            #    1,42  insn per cycle           ( +-  0,62% )
+    17.388.080.486      branches:u                #  495,628 M/sec                    ( +-  0,99% )
+        30.880.811      branch-misses:u           #    0,18% of all branches          ( +-  0,85% )
+
+            3,3706 +- 0,0538 seconds time elapsed  ( +-  1,60% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         43.328,71 msec task-clock:u              #   13,951 CPUs utilized            ( +-  0,38% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           354.656      page-faults:u             #    0,008 M/sec                    ( +-  0,14% )
+   111.401.488.611      cycles:u                  #    2,571 GHz                      ( +-  0,48% )
+   139.468.652.945      instructions:u            #    1,25  insn per cycle           ( +-  0,76% )
+    19.853.629.559      branches:u                #  458,210 M/sec                    ( +-  1,17% )
+        34.821.078      branch-misses:u           #    0,18% of all branches          ( +-  1,90% )
+
+            3,1057 +- 0,0640 seconds time elapsed  ( +-  2,06% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         49.041,32 msec task-clock:u              #   14,903 CPUs utilized            ( +-  0,56% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           349.990      page-faults:u             #    0,007 M/sec                    ( +-  0,17% )
+   128.560.124.330      cycles:u                  #    2,621 GHz                      ( +-  0,58% )
+   150.990.407.404      instructions:u            #    1,17  insn per cycle           ( +-  1,15% )
+    22.386.143.181      branches:u                #  456,475 M/sec                    ( +-  1,69% )
+        39.072.413      branch-misses:u           #    0,17% of all branches          ( +-  1,61% )
+
+             3,291 +- 0,110 seconds time elapsed  ( +-  3,34% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         55.555,65 msec task-clock:u              #   16,201 CPUs utilized            ( +-  0,41% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           351.976      page-faults:u             #    0,006 M/sec                    ( +-  0,28% )
+   147.326.031.877      cycles:u                  #    2,652 GHz                      ( +-  0,44% )
+   166.767.619.416      instructions:u            #    1,13  insn per cycle           ( +-  0,90% )
+    25.862.074.283      branches:u                #  465,517 M/sec                    ( +-  1,26% )
+        45.044.709      branch-misses:u           #    0,17% of all branches          ( +-  2,26% )
+
+            3,4291 +- 0,0634 seconds time elapsed  ( +-  1,85% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         64.357,57 msec task-clock:u              #   18,210 CPUs utilized            ( +-  0,36% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           350.491      page-faults:u             #    0,005 M/sec                    ( +-  0,17% )
+   172.890.801.315      cycles:u                  #    2,686 GHz                      ( +-  0,39% )
+   174.412.726.418      instructions:u            #    1,01  insn per cycle           ( +-  0,66% )
+    27.600.273.701      branches:u                #  428,858 M/sec                    ( +-  0,91% )
+        45.786.635      branch-misses:u           #    0,17% of all branches          ( +-  1,20% )
+
+            3,5342 +- 0,0443 seconds time elapsed  ( +-  1,25% )
+
+
+ Performance counter stats for 'mpirun -n 14 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         48.741,54 msec task-clock:u              #   14,844 CPUs utilized            ( +-  0,36% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           348.440      page-faults:u             #    0,007 M/sec                    ( +-  0,10% )
+   128.681.032.370      cycles:u                  #    2,640 GHz                      ( +-  0,41% )
+   167.755.159.522      instructions:u            #    1,30  insn per cycle           ( +-  0,83% )
+    26.010.050.195      branches:u                #  533,632 M/sec                    ( +-  1,16% )
+        46.182.883      branch-misses:u           #    0,18% of all branches          ( +-  1,67% )
+
+            3,2836 +- 0,0550 seconds time elapsed  ( +-  1,68% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         34.457,31 msec task-clock:u              #    8,641 CPUs utilized            ( +-  0,61% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           381.025      page-faults:u             #    0,011 M/sec                    ( +-  1,84% )
+    97.050.463.748      cycles:u                  #    2,817 GHz                      ( +-  0,49% )
+   146.703.169.139      instructions:u            #    1,51  insn per cycle           ( +-  0,74% )
+    21.419.071.391      branches:u                #  621,612 M/sec                    ( +-  1,11% )
+        37.024.003      branch-misses:u           #    0,17% of all branches          ( +-  0,92% )
+
+            3,9875 +- 0,0586 seconds time elapsed  ( +-  1,47% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         35.943,87 msec task-clock:u              #   10,686 CPUs utilized            ( +-  0,65% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           373.620      page-faults:u             #    0,010 M/sec                    ( +-  0,93% )
+    91.658.569.327      cycles:u                  #    2,550 GHz                      ( +-  0,69% )
+   129.989.749.123      instructions:u            #    1,42  insn per cycle           ( +-  1,09% )
+    17.778.797.019      branches:u                #  494,627 M/sec                    ( +-  1,73% )
+        32.609.698      branch-misses:u           #    0,18% of all branches          ( +-  1,28% )
+
+            3,3635 +- 0,0897 seconds time elapsed  ( +-  2,67% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         46.581,09 msec task-clock:u              #   14,480 CPUs utilized            ( +-  0,28% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           366.114      page-faults:u             #    0,008 M/sec                    ( +-  0,07% )
+   121.235.022.095      cycles:u                  #    2,603 GHz                      ( +-  0,35% )
+   152.919.724.489      instructions:u            #    1,26  insn per cycle           ( +-  0,60% )
+    22.788.218.667      branches:u                #  489,216 M/sec                    ( +-  0,87% )
+        39.799.619      branch-misses:u           #    0,17% of all branches          ( +-  1,39% )
+
+            3,2169 +- 0,0533 seconds time elapsed  ( +-  1,66% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         51.812,84 msec task-clock:u              #   16,157 CPUs utilized            ( +-  0,35% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           362.428      page-faults:u             #    0,007 M/sec                    ( +-  0,12% )
+   137.191.383.036      cycles:u                  #    2,648 GHz                      ( +-  0,45% )
+   167.088.290.156      instructions:u            #    1,22  insn per cycle           ( +-  0,87% )
+    25.900.882.751      branches:u                #  499,893 M/sec                    ( +-  1,23% )
+        44.448.708      branch-misses:u           #    0,17% of all branches          ( +-  1,71% )
+
+            3,2068 +- 0,0697 seconds time elapsed  ( +-  2,17% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         58.016,47 msec task-clock:u              #   16,388 CPUs utilized            ( +-  0,37% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           361.165      page-faults:u             #    0,006 M/sec                    ( +-  0,15% )
+   155.138.126.972      cycles:u                  #    2,674 GHz                      ( +-  0,45% )
+   177.148.971.195      instructions:u            #    1,14  insn per cycle           ( +-  0,88% )
+    28.135.473.832      branches:u                #  484,957 M/sec                    ( +-  1,21% )
+        47.677.149      branch-misses:u           #    0,17% of all branches          ( +-  1,46% )
+
+            3,5402 +- 0,0666 seconds time elapsed  ( +-  1,88% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         69.400,85 msec task-clock:u              #   18,852 CPUs utilized            ( +-  0,36% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           363.699      page-faults:u             #    0,005 M/sec                    ( +-  0,11% )
+   187.148.740.227      cycles:u                  #    2,697 GHz                      ( +-  0,30% )
+   191.538.898.447      instructions:u            #    1,02  insn per cycle           ( +-  0,62% )
+    31.356.434.419      branches:u                #  451,816 M/sec                    ( +-  0,82% )
+        52.420.611      branch-misses:u           #    0,17% of all branches          ( +-  1,62% )
+
+            3,6814 +- 0,0644 seconds time elapsed  ( +-  1,75% )
+
+
+ Performance counter stats for 'mpirun -n 16 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         50.303,50 msec task-clock:u              #   14,545 CPUs utilized            ( +-  0,52% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           359.142      page-faults:u             #    0,007 M/sec                    ( +-  0,16% )
+   133.320.604.379      cycles:u                  #    2,650 GHz                      ( +-  0,67% )
+   178.360.686.463      instructions:u            #    1,34  insn per cycle           ( +-  1,14% )
+    28.322.033.821      branches:u                #  563,023 M/sec                    ( +-  1,57% )
+        49.863.749      branch-misses:u           #    0,18% of all branches          ( +-  2,25% )
+
+            3,4585 +- 0,0770 seconds time elapsed  ( +-  2,23% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         35.880,68 msec task-clock:u              #    9,197 CPUs utilized            ( +-  0,80% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           379.778      page-faults:u             #    0,011 M/sec                    ( +-  0,05% )
+    97.921.779.810      cycles:u                  #    2,729 GHz                      ( +-  0,47% )
+   148.842.346.432      instructions:u            #    1,52  insn per cycle           ( +-  0,72% )
+    21.924.453.172      branches:u                #  611,038 M/sec                    ( +-  1,06% )
+        38.804.265      branch-misses:u           #    0,18% of all branches          ( +-  1,28% )
+
+            3,9015 +- 0,0657 seconds time elapsed  ( +-  1,68% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         37.839,24 msec task-clock:u              #   11,766 CPUs utilized            ( +-  0,59% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           380.985      page-faults:u             #    0,010 M/sec                    ( +-  0,49% )
+    96.630.627.025      cycles:u                  #    2,554 GHz                      ( +-  0,67% )
+   134.785.530.692      instructions:u            #    1,39  insn per cycle           ( +-  1,07% )
+    18.863.870.099      branches:u                #  498,527 M/sec                    ( +-  1,66% )
+        35.092.964      branch-misses:u           #    0,19% of all branches          ( +-  2,05% )
+
+            3,2160 +- 0,0713 seconds time elapsed  ( +-  2,22% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         48.095,62 msec task-clock:u              #   15,154 CPUs utilized            ( +-  0,39% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           376.293      page-faults:u             #    0,008 M/sec                    ( +-  0,10% )
+   124.996.983.794      cycles:u                  #    2,599 GHz                      ( +-  0,48% )
+   158.612.183.409      instructions:u            #    1,27  insn per cycle           ( +-  0,87% )
+    24.070.600.681      branches:u                #  500,474 M/sec                    ( +-  1,26% )
+        42.646.736      branch-misses:u           #    0,18% of all branches          ( +-  1,86% )
+
+            3,1738 +- 0,0794 seconds time elapsed  ( +-  2,50% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         53.880,61 msec task-clock:u              #   16,501 CPUs utilized            ( +-  0,58% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           373.272      page-faults:u             #    0,007 M/sec                    ( +-  0,19% )
+   142.845.354.972      cycles:u                  #    2,651 GHz                      ( +-  0,63% )
+   175.834.364.769      instructions:u            #    1,23  insn per cycle           ( +-  1,18% )
+    27.852.283.902      branches:u                #  516,926 M/sec                    ( +-  1,62% )
+        48.982.515      branch-misses:u           #    0,18% of all branches          ( +-  2,07% )
+
+            3,2653 +- 0,0780 seconds time elapsed  ( +-  2,39% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         61.106,79 msec task-clock:u              #   17,893 CPUs utilized            ( +-  0,66% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           374.668      page-faults:u             #    0,006 M/sec                    ( +-  0,51% )
+   163.451.991.371      cycles:u                  #    2,675 GHz                      ( +-  0,77% )
+   188.885.847.342      instructions:u            #    1,16  insn per cycle           ( +-  1,48% )
+    30.743.976.661      branches:u                #  503,119 M/sec                    ( +-  1,99% )
+        54.353.045      branch-misses:u           #    0,18% of all branches          ( +-  2,74% )
+
+            3,4151 +- 0,0629 seconds time elapsed  ( +-  1,84% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         74.012,83 msec task-clock:u              #   19,705 CPUs utilized            ( +-  0,28% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           375.499      page-faults:u             #    0,005 M/sec                    ( +-  0,14% )
+   199.767.313.426      cycles:u                  #    2,699 GHz                      ( +-  0,29% )
+   203.369.784.010      instructions:u            #    1,02  insn per cycle           ( +-  0,69% )
+    33.999.780.942      branches:u                #  459,377 M/sec                    ( +-  0,90% )
+        57.564.487      branch-misses:u           #    0,17% of all branches          ( +-  1,44% )
+
+            3,7560 +- 0,0645 seconds time elapsed  ( +-  1,72% )
+
+
+ Performance counter stats for 'mpirun -n 18 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         52.735,42 msec task-clock:u              #   15,454 CPUs utilized            ( +-  0,50% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           372.405      page-faults:u             #    0,007 M/sec                    ( +-  0,16% )
+   139.835.358.420      cycles:u                  #    2,652 GHz                      ( +-  0,49% )
+   193.927.729.519      instructions:u            #    1,39  insn per cycle           ( +-  0,83% )
+    31.755.258.005      branches:u                #  602,162 M/sec                    ( +-  1,10% )
+        55.049.021      branch-misses:u           #    0,17% of all branches          ( +-  1,56% )
+
+            3,4124 +- 0,0769 seconds time elapsed  ( +-  2,25% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         36.298,19 msec task-clock:u              #    9,649 CPUs utilized            ( +-  0,66% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           390.928      page-faults:u             #    0,011 M/sec                    ( +-  0,11% )
+    98.937.441.650      cycles:u                  #    2,726 GHz                      ( +-  0,41% )
+   150.794.322.585      instructions:u            #    1,52  insn per cycle           ( +-  0,61% )
+    22.336.462.220      branches:u                #  615,360 M/sec                    ( +-  0,90% )
+        40.866.316      branch-misses:u           #    0,18% of all branches          ( +-  2,22% )
+
+            3,7618 +- 0,0846 seconds time elapsed  ( +-  2,25% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         41.111,63 msec task-clock:u              #   13,068 CPUs utilized            ( +-  0,49% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           391.267      page-faults:u             #    0,010 M/sec                    ( +-  0,07% )
+   105.314.568.948      cycles:u                  #    2,562 GHz                      ( +-  0,57% )
+   147.732.069.571      instructions:u            #    1,40  insn per cycle           ( +-  0,94% )
+    21.673.865.571      branches:u                #  527,195 M/sec                    ( +-  1,40% )
+        40.443.926      branch-misses:u           #    0,19% of all branches          ( +-  1,62% )
+
+            3,1460 +- 0,0626 seconds time elapsed  ( +-  1,99% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         49.991,53 msec task-clock:u              #   15,755 CPUs utilized            ( +-  0,38% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           388.925      page-faults:u             #    0,008 M/sec                    ( +-  0,47% )
+   129.854.251.274      cycles:u                  #    2,598 GHz                      ( +-  0,41% )
+   168.032.386.027      instructions:u            #    1,29  insn per cycle           ( +-  0,69% )
+    26.113.763.879      branches:u                #  522,364 M/sec                    ( +-  0,97% )
+        46.032.923      branch-misses:u           #    0,18% of all branches          ( +-  1,04% )
+
+            3,1731 +- 0,0741 seconds time elapsed  ( +-  2,34% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         56.442,91 msec task-clock:u              #   16,784 CPUs utilized            ( +-  0,48% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           385.227      page-faults:u             #    0,007 M/sec                    ( +-  0,16% )
+   149.629.071.571      cycles:u                  #    2,651 GHz                      ( +-  0,60% )
+   187.756.726.185      instructions:u            #    1,25  insn per cycle           ( +-  1,11% )
+    30.443.253.366      branches:u                #  539,364 M/sec                    ( +-  1,49% )
+        53.771.959      branch-misses:u           #    0,18% of all branches          ( +-  1,57% )
+
+            3,3628 +- 0,0620 seconds time elapsed  ( +-  1,84% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         64.288,90 msec task-clock:u              #   18,799 CPUs utilized            ( +-  0,71% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           385.293      page-faults:u             #    0,006 M/sec                    ( +-  0,34% )
+   171.830.016.586      cycles:u                  #    2,673 GHz                      ( +-  0,79% )
+   200.994.283.135      instructions:u            #    1,17  insn per cycle           ( +-  1,48% )
+    33.381.048.933      branches:u                #  519,235 M/sec                    ( +-  1,94% )
+        56.689.666      branch-misses:u           #    0,17% of all branches          ( +-  1,39% )
+
+            3,4198 +- 0,0689 seconds time elapsed  ( +-  2,01% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         78.614,80 msec task-clock:u              #   19,973 CPUs utilized            ( +-  0,56% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           387.156      page-faults:u             #    0,005 M/sec                    ( +-  0,22% )
+   211.726.095.616      cycles:u                  #    2,693 GHz                      ( +-  0,58% )
+   216.436.135.983      instructions:u            #    1,02  insn per cycle           ( +-  1,39% )
+    36.855.219.213      branches:u                #  468,808 M/sec                    ( +-  1,78% )
+        61.897.415      branch-misses:u           #    0,17% of all branches          ( +-  2,09% )
+
+            3,9361 +- 0,0493 seconds time elapsed  ( +-  1,25% )
+
+
+ Performance counter stats for 'mpirun -n 20 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         54.627,78 msec task-clock:u              #   15,993 CPUs utilized            ( +-  0,66% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           383.949      page-faults:u             #    0,007 M/sec                    ( +-  0,23% )
+   144.588.977.417      cycles:u                  #    2,647 GHz                      ( +-  0,68% )
+   204.784.271.656      instructions:u            #    1,42  insn per cycle           ( +-  1,13% )
+    34.108.858.392      branches:u                #  624,387 M/sec                    ( +-  1,47% )
+        58.859.100      branch-misses:u           #    0,17% of all branches          ( +-  2,18% )
+
+            3,4157 +- 0,0771 seconds time elapsed  ( +-  2,26% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         37.738,32 msec task-clock:u              #   10,040 CPUs utilized            ( +-  0,70% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           403.188      page-faults:u             #    0,011 M/sec                    ( +-  0,05% )
+    99.843.175.701      cycles:u                  #    2,646 GHz                      ( +-  0,46% )
+   152.694.558.466      instructions:u            #    1,53  insn per cycle           ( +-  0,69% )
+    22.723.963.584      branches:u                #  602,146 M/sec                    ( +-  1,01% )
+        40.816.883      branch-misses:u           #    0,18% of all branches          ( +-  0,83% )
+
+            3,7588 +- 0,0805 seconds time elapsed  ( +-  2,14% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         43.900,63 msec task-clock:u              #   13,822 CPUs utilized            ( +-  0,38% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           404.916      page-faults:u             #    0,009 M/sec                    ( +-  0,44% )
+   112.664.134.778      cycles:u                  #    2,566 GHz                      ( +-  0,39% )
+   158.569.274.062      instructions:u            #    1,41  insn per cycle           ( +-  0,61% )
+    24.010.544.414      branches:u                #  546,929 M/sec                    ( +-  0,88% )
+        45.221.132      branch-misses:u           #    0,19% of all branches          ( +-  1,58% )
+
+            3,1761 +- 0,0945 seconds time elapsed  ( +-  2,98% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         53.857,70 msec task-clock:u              #   16,792 CPUs utilized            ( +-  0,78% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           403.377      page-faults:u             #    0,007 M/sec                    ( +-  0,57% )
+   141.246.892.578      cycles:u                  #    2,623 GHz                      ( +-  0,86% )
+   190.904.430.239      instructions:u            #    1,35  insn per cycle           ( +-  1,41% )
+    31.076.495.455      branches:u                #  577,011 M/sec                    ( +-  1,89% )
+        55.527.585      branch-misses:u           #    0,18% of all branches          ( +-  2,08% )
+
+            3,2073 +- 0,0538 seconds time elapsed  ( +-  1,68% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         59.840,78 msec task-clock:u              #   18,011 CPUs utilized            ( +-  0,58% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           398.140      page-faults:u             #    0,007 M/sec                    ( +-  0,21% )
+   158.800.987.780      cycles:u                  #    2,654 GHz                      ( +-  0,65% )
+   204.416.038.284      instructions:u            #    1,29  insn per cycle           ( +-  1,27% )
+    34.053.793.673      branches:u                #  569,073 M/sec                    ( +-  1,67% )
+        59.959.987      branch-misses:u           #    0,18% of all branches          ( +-  1,84% )
+
+            3,3224 +- 0,0435 seconds time elapsed  ( +-  1,31% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         68.451,84 msec task-clock:u              #   19,096 CPUs utilized            ( +-  0,76% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           398.662      page-faults:u             #    0,006 M/sec                    ( +-  0,30% )
+   182.888.767.516      cycles:u                  #    2,672 GHz                      ( +-  0,81% )
+   218.468.487.864      instructions:u            #    1,19  insn per cycle           ( +-  1,46% )
+    37.174.121.480      branches:u                #  543,070 M/sec                    ( +-  1,87% )
+        64.159.297      branch-misses:u           #    0,17% of all branches          ( +-  2,10% )
+
+            3,5846 +- 0,0575 seconds time elapsed  ( +-  1,61% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         83.860,58 msec task-clock:u              #   21,609 CPUs utilized            ( +-  0,54% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           402.264      page-faults:u             #    0,005 M/sec                    ( +-  0,46% )
+   224.993.781.903      cycles:u                  #    2,683 GHz                      ( +-  0,57% )
+   232.943.528.583      instructions:u            #    1,04  insn per cycle           ( +-  1,10% )
+    40.447.419.416      branches:u                #  482,317 M/sec                    ( +-  1,38% )
+        68.569.086      branch-misses:u           #    0,17% of all branches          ( +-  1,81% )
+
+            3,8809 +- 0,0545 seconds time elapsed  ( +-  1,40% )
+
+
+ Performance counter stats for 'mpirun -n 22 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         57.229,67 msec task-clock:u              #   15,902 CPUs utilized            ( +-  0,97% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           397.448      page-faults:u             #    0,007 M/sec                    ( +-  0,33% )
+   151.260.299.844      cycles:u                  #    2,643 GHz                      ( +-  1,11% )
+   219.043.608.188      instructions:u            #    1,45  insn per cycle           ( +-  1,80% )
+    37.191.159.134      branches:u                #  649,858 M/sec                    ( +-  2,31% )
+        64.353.298      branch-misses:u           #    0,17% of all branches          ( +-  2,27% )
+
+            3,5990 +- 0,0944 seconds time elapsed  ( +-  2,62% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         38.830,24 msec task-clock:u              #   10,622 CPUs utilized            ( +-  0,67% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           417.274      page-faults:u             #    0,011 M/sec                    ( +-  0,58% )
+   101.017.598.321      cycles:u                  #    2,602 GHz                      ( +-  0,54% )
+   155.089.010.045      instructions:u            #    1,54  insn per cycle           ( +-  0,83% )
+    23.248.141.909      branches:u                #  598,712 M/sec                    ( +-  1,21% )
+        42.768.618      branch-misses:u           #    0,18% of all branches          ( +-  1,04% )
+
+            3,6556 +- 0,0617 seconds time elapsed  ( +-  1,69% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         47.161,38 msec task-clock:u              #   14,791 CPUs utilized            ( +-  0,43% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           417.397      page-faults:u             #    0,009 M/sec                    ( +-  0,45% )
+   121.289.187.303      cycles:u                  #    2,572 GHz                      ( +-  0,50% )
+   173.512.342.646      instructions:u            #    1,43  insn per cycle           ( +-  0,79% )
+    27.271.421.147      branches:u                #  578,257 M/sec                    ( +-  1,10% )
+        49.666.120      branch-misses:u           #    0,18% of all branches          ( +-  1,32% )
+
+            3,1885 +- 0,0700 seconds time elapsed  ( +-  2,20% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         56.241,99 msec task-clock:u              #   16,848 CPUs utilized            ( +-  0,53% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           413.676      page-faults:u             #    0,007 M/sec                    ( +-  0,14% )
+   146.979.158.002      cycles:u                  #    2,613 GHz                      ( +-  0,62% )
+   201.886.031.783      instructions:u            #    1,37  insn per cycle           ( +-  1,11% )
+    33.475.341.209      branches:u                #  595,202 M/sec                    ( +-  1,45% )
+        58.979.504      branch-misses:u           #    0,18% of all branches          ( +-  1,52% )
+
+            3,3382 +- 0,0773 seconds time elapsed  ( +-  2,31% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         62.732,50 msec task-clock:u              #   18,362 CPUs utilized            ( +-  0,56% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           410.594      page-faults:u             #    0,007 M/sec                    ( +-  0,17% )
+   165.588.662.890      cycles:u                  #    2,640 GHz                      ( +-  0,58% )
+   216.336.336.141      instructions:u            #    1,31  insn per cycle           ( +-  1,12% )
+    36.660.077.160      branches:u                #  584,387 M/sec                    ( +-  1,45% )
+        65.309.359      branch-misses:u           #    0,18% of all branches          ( +-  1,64% )
+
+            3,4165 +- 0,0726 seconds time elapsed  ( +-  2,12% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         71.311,86 msec task-clock:u              #   20,014 CPUs utilized            ( +-  0,59% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           409.582      page-faults:u             #    0,006 M/sec                    ( +-  0,17% )
+   189.688.970.612      cycles:u                  #    2,660 GHz                      ( +-  0,67% )
+   226.640.400.173      instructions:u            #    1,19  insn per cycle           ( +-  1,18% )
+    38.968.992.947      branches:u                #  546,459 M/sec                    ( +-  1,50% )
+        67.308.145      branch-misses:u           #    0,17% of all branches          ( +-  1,20% )
+
+            3,5631 +- 0,0515 seconds time elapsed  ( +-  1,45% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         88.547,43 msec task-clock:u              #   22,383 CPUs utilized            ( +-  0,27% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           414.301      page-faults:u             #    0,005 M/sec                    ( +-  0,09% )
+   237.776.478.530      cycles:u                  #    2,685 GHz                      ( +-  0,28% )
+   249.586.443.077      instructions:u            #    1,05  insn per cycle           ( +-  0,73% )
+    44.096.304.489      branches:u                #  497,996 M/sec                    ( +-  0,90% )
+        73.526.550      branch-misses:u           #    0,17% of all branches          ( +-  1,20% )
+
+            3,9560 +- 0,0643 seconds time elapsed  ( +-  1,62% )
+
+
+ Performance counter stats for 'mpirun -n 24 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         59.849,43 msec task-clock:u              #   17,404 CPUs utilized            ( +-  0,79% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           410.236      page-faults:u             #    0,007 M/sec                    ( +-  0,23% )
+   157.285.875.077      cycles:u                  #    2,628 GHz                      ( +-  0,86% )
+   232.697.590.712      instructions:u            #    1,48  insn per cycle           ( +-  1,34% )
+    40.170.342.006      branches:u                #  671,190 M/sec                    ( +-  1,69% )
+        69.171.463      branch-misses:u           #    0,17% of all branches          ( +-  2,04% )
+
+            3,4388 +- 0,0668 seconds time elapsed  ( +-  1,94% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         40.246,92 msec task-clock:u              #   10,672 CPUs utilized            ( +-  0,55% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           455.595      page-faults:u             #    0,011 M/sec                    ( +-  1,54% )
+   102.193.243.008      cycles:u                  #    2,539 GHz                      ( +-  0,59% )
+   157.908.822.476      instructions:u            #    1,55  insn per cycle           ( +-  0,89% )
+    23.912.132.947      branches:u                #  594,136 M/sec                    ( +-  1,29% )
+        45.045.196      branch-misses:u           #    0,19% of all branches          ( +-  1,20% )
+
+            3,7711 +- 0,0889 seconds time elapsed  ( +-  2,36% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         49.747,91 msec task-clock:u              #   14,774 CPUs utilized            ( +-  0,45% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           427.108      page-faults:u             #    0,009 M/sec                    ( +-  0,07% )
+   127.266.069.997      cycles:u                  #    2,558 GHz                      ( +-  0,43% )
+   183.056.547.660      instructions:u            #    1,44  insn per cycle           ( +-  0,67% )
+    29.402.231.379      branches:u                #  591,025 M/sec                    ( +-  0,90% )
+        54.685.970      branch-misses:u           #    0,19% of all branches          ( +-  1,15% )
+
+            3,3672 +- 0,0662 seconds time elapsed  ( +-  1,97% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         58.580,70 msec task-clock:u              #   16,818 CPUs utilized            ( +-  0,66% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           426.314      page-faults:u             #    0,007 M/sec                    ( +-  0,22% )
+   152.504.513.844      cycles:u                  #    2,603 GHz                      ( +-  0,68% )
+   213.488.477.204      instructions:u            #    1,40  insn per cycle           ( +-  1,15% )
+    36.056.776.938      branches:u                #  615,506 M/sec                    ( +-  1,48% )
+        64.620.062      branch-misses:u           #    0,18% of all branches          ( +-  1,73% )
+
+            3,4832 +- 0,0860 seconds time elapsed  ( +-  2,47% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         65.508,85 msec task-clock:u              #   17,763 CPUs utilized            ( +-  0,80% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           422.751      page-faults:u             #    0,006 M/sec                    ( +-  0,21% )
+   172.169.905.280      cycles:u                  #    2,628 GHz                      ( +-  0,79% )
+   228.251.779.731      instructions:u            #    1,33  insn per cycle           ( +-  1,43% )
+    39.312.795.722      branches:u                #  600,114 M/sec                    ( +-  1,81% )
+        69.085.513      branch-misses:u           #    0,18% of all branches          ( +-  1,50% )
+
+             3,688 +- 0,112 seconds time elapsed  ( +-  3,02% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         75.301,17 msec task-clock:u              #   20,056 CPUs utilized            ( +-  0,76% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           422.486      page-faults:u             #    0,006 M/sec                    ( +-  0,23% )
+   198.996.045.231      cycles:u                  #    2,643 GHz                      ( +-  0,82% )
+   239.907.034.522      instructions:u            #    1,21  insn per cycle           ( +-  1,48% )
+    41.923.083.164      branches:u                #  556,739 M/sec                    ( +-  1,85% )
+        71.709.625      branch-misses:u           #    0,17% of all branches          ( +-  2,46% )
+
+            3,7546 +- 0,0595 seconds time elapsed  ( +-  1,58% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         92.547,34 msec task-clock:u              #   22,021 CPUs utilized            ( +-  0,41% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           426.981      page-faults:u             #    0,005 M/sec                    ( +-  0,12% )
+   246.830.715.448      cycles:u                  #    2,667 GHz                      ( +-  0,38% )
+   260.907.575.125      instructions:u            #    1,06  insn per cycle           ( +-  0,71% )
+    46.627.312.111      branches:u                #  503,821 M/sec                    ( +-  0,86% )
+        79.297.275      branch-misses:u           #    0,17% of all branches          ( +-  1,52% )
+
+            4,2026 +- 0,0579 seconds time elapsed  ( +-  1,38% )
+
+
+ Performance counter stats for 'mpirun -n 26 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         60.734,46 msec task-clock:u              #   17,245 CPUs utilized            ( +-  0,95% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           419.236      page-faults:u             #    0,007 M/sec                    ( +-  0,31% )
+   157.898.723.310      cycles:u                  #    2,600 GHz                      ( +-  1,03% )
+   234.591.631.265      instructions:u            #    1,49  insn per cycle           ( +-  1,65% )
+    40.632.635.840      branches:u                #  669,021 M/sec                    ( +-  2,08% )
+        71.100.587      branch-misses:u           #    0,17% of all branches          ( +-  2,28% )
+
+            3,5219 +- 0,0815 seconds time elapsed  ( +-  2,31% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         40.754,33 msec task-clock:u              #   11,812 CPUs utilized            ( +-  0,49% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           458.189      page-faults:u             #    0,011 M/sec                    ( +-  0,91% )
+   103.082.504.108      cycles:u                  #    2,529 GHz                      ( +-  0,55% )
+   159.450.243.446      instructions:u            #    1,55  insn per cycle           ( +-  0,83% )
+    24.242.420.133      branches:u                #  594,843 M/sec                    ( +-  1,19% )
+        45.417.157      branch-misses:u           #    0,19% of all branches          ( +-  1,08% )
+
+            3,4503 +- 0,0690 seconds time elapsed  ( +-  2,00% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         52.539,49 msec task-clock:u              #   15,515 CPUs utilized            ( +-  0,13% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           444.923      page-faults:u             #    0,008 M/sec                    ( +-  0,82% )
+   134.707.695.141      cycles:u                  #    2,564 GHz                      ( +-  0,20% )
+   195.371.375.158      instructions:u            #    1,45  insn per cycle           ( +-  0,40% )
+    32.082.068.817      branches:u                #  610,628 M/sec                    ( +-  0,53% )
+        60.857.845      branch-misses:u           #    0,19% of all branches          ( +-  1,73% )
+
+            3,3863 +- 0,0881 seconds time elapsed  ( +-  2,60% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         60.330,42 msec task-clock:u              #   17,688 CPUs utilized            ( +-  0,58% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           437.888      page-faults:u             #    0,007 M/sec                    ( +-  0,51% )
+   156.343.055.759      cycles:u                  #    2,591 GHz                      ( +-  0,62% )
+   219.121.898.904      instructions:u            #    1,40  insn per cycle           ( +-  1,06% )
+    37.281.633.881      branches:u                #  617,957 M/sec                    ( +-  1,35% )
+        67.271.999      branch-misses:u           #    0,18% of all branches          ( +-  1,78% )
+
+            3,4108 +- 0,0592 seconds time elapsed  ( +-  1,74% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         68.092,57 msec task-clock:u              #   18,346 CPUs utilized            ( +-  1,14% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           432.908      page-faults:u             #    0,006 M/sec                    ( +-  0,29% )
+   178.334.452.526      cycles:u                  #    2,619 GHz                      ( +-  1,22% )
+   238.799.612.817      instructions:u            #    1,34  insn per cycle           ( +-  2,17% )
+    41.610.545.865      branches:u                #  611,088 M/sec                    ( +-  2,72% )
+        73.294.674      branch-misses:u           #    0,18% of all branches          ( +-  2,46% )
+
+             3,712 +- 0,126 seconds time elapsed  ( +-  3,41% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         78.386,51 msec task-clock:u              #   19,954 CPUs utilized            ( +-  0,73% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           433.793      page-faults:u             #    0,006 M/sec                    ( +-  0,23% )
+   207.025.555.582      cycles:u                  #    2,641 GHz                      ( +-  0,74% )
+   250.517.482.233      instructions:u            #    1,21  insn per cycle           ( +-  1,35% )
+    44.241.647.825      branches:u                #  564,404 M/sec                    ( +-  1,67% )
+        76.950.268      branch-misses:u           #    0,17% of all branches          ( +-  2,08% )
+
+            3,9284 +- 0,0836 seconds time elapsed  ( +-  2,13% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+         97.162,00 msec task-clock:u              #   23,225 CPUs utilized            ( +-  0,50% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           439.167      page-faults:u             #    0,005 M/sec                    ( +-  0,08% )
+   259.130.089.775      cycles:u                  #    2,667 GHz                      ( +-  0,52% )
+   275.733.333.472      instructions:u            #    1,06  insn per cycle           ( +-  0,57% )
+    49.873.098.843      branches:u                #  513,298 M/sec                    ( +-  0,68% )
+        87.417.159      branch-misses:u           #    0,18% of all branches          ( +-  1,32% )
+
+            4,1836 +- 0,0728 seconds time elapsed  ( +-  1,74% )
+
+
+ Performance counter stats for 'mpirun -n 28 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         63.167,43 msec task-clock:u              #   17,610 CPUs utilized            ( +-  0,41% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           432.158      page-faults:u             #    0,007 M/sec                    ( +-  0,15% )
+   164.168.199.804      cycles:u                  #    2,599 GHz                      ( +-  0,47% )
+   248.035.843.685      instructions:u            #    1,51  insn per cycle           ( +-  0,78% )
+    43.558.287.402      branches:u                #  689,569 M/sec                    ( +-  0,97% )
+        77.230.490      branch-misses:u           #    0,18% of all branches          ( +-  1,18% )
+
+            3,5871 +- 0,0657 seconds time elapsed  ( +-  1,83% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         42.064,79 msec task-clock:u              #   11,861 CPUs utilized            ( +-  0,70% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           463.440      page-faults:u             #    0,011 M/sec                    ( +-  0,61% )
+   106.107.133.905      cycles:u                  #    2,522 GHz                      ( +-  0,75% )
+   165.746.286.216      instructions:u            #    1,56  insn per cycle           ( +-  1,10% )
+    25.583.082.158      branches:u                #  608,183 M/sec                    ( +-  1,55% )
+        48.973.086      branch-misses:u           #    0,19% of all branches          ( +-  1,24% )
+
+            3,5466 +- 0,0836 seconds time elapsed  ( +-  2,36% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         55.403,71 msec task-clock:u              #   17,289 CPUs utilized            ( +-  0,24% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           451.381      page-faults:u             #    0,008 M/sec                    ( +-  0,10% )
+   142.425.767.353      cycles:u                  #    2,571 GHz                      ( +-  0,32% )
+   208.880.902.480      instructions:u            #    1,47  insn per cycle           ( +-  0,57% )
+    34.996.190.100      branches:u                #  631,658 M/sec                    ( +-  0,74% )
+        65.619.711      branch-misses:u           #    0,19% of all branches          ( +-  1,41% )
+
+            3,2046 +- 0,0624 seconds time elapsed  ( +-  1,95% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         62.750,59 msec task-clock:u              #   18,349 CPUs utilized            ( +-  0,77% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           452.286      page-faults:u             #    0,007 M/sec                    ( +-  0,99% )
+   163.108.157.623      cycles:u                  #    2,599 GHz                      ( +-  0,80% )
+   231.692.533.855      instructions:u            #    1,42  insn per cycle           ( +-  1,24% )
+    39.992.634.011      branches:u                #  637,327 M/sec                    ( +-  1,57% )
+        73.465.778      branch-misses:u           #    0,18% of all branches          ( +-  2,06% )
+
+            3,4198 +- 0,0706 seconds time elapsed  ( +-  2,06% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         70.791,26 msec task-clock:u              #   19,604 CPUs utilized            ( +-  1,12% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           445.308      page-faults:u             #    0,006 M/sec                    ( +-  0,36% )
+   185.612.193.793      cycles:u                  #    2,622 GHz                      ( +-  1,18% )
+   250.897.079.802      instructions:u            #    1,35  insn per cycle           ( +-  1,99% )
+    44.221.258.149      branches:u                #  624,671 M/sec                    ( +-  2,46% )
+        79.178.985      branch-misses:u           #    0,18% of all branches          ( +-  2,08% )
+
+            3,6111 +- 0,0736 seconds time elapsed  ( +-  2,04% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         82.796,43 msec task-clock:u              #   21,624 CPUs utilized            ( +-  0,73% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           447.689      page-faults:u             #    0,005 M/sec                    ( +-  0,22% )
+   218.710.661.127      cycles:u                  #    2,642 GHz                      ( +-  0,78% )
+   269.850.822.226      instructions:u            #    1,23  insn per cycle           ( +-  1,49% )
+    48.433.953.767      branches:u                #  584,976 M/sec                    ( +-  1,81% )
+        85.944.385      branch-misses:u           #    0,18% of all branches          ( +-  1,46% )
+
+            3,8289 +- 0,0783 seconds time elapsed  ( +-  2,04% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+        101.223,31 msec task-clock:u              #   23,098 CPUs utilized            ( +-  0,37% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           451.049      page-faults:u             #    0,004 M/sec                    ( +-  0,14% )
+   270.077.882.921      cycles:u                  #    2,668 GHz                      ( +-  0,38% )
+   286.935.507.473      instructions:u            #    1,06  insn per cycle           ( +-  0,71% )
+    52.302.082.035      branches:u                #  516,700 M/sec                    ( +-  0,84% )
+        92.379.716      branch-misses:u           #    0,18% of all branches          ( +-  1,50% )
+
+            4,3824 +- 0,0565 seconds time elapsed  ( +-  1,29% )
+
+
+ Performance counter stats for 'mpirun -n 30 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         65.005,99 msec task-clock:u              #   17,636 CPUs utilized            ( +-  1,33% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           442.712      page-faults:u             #    0,007 M/sec                    ( +-  0,39% )
+   168.784.705.438      cycles:u                  #    2,596 GHz                      ( +-  1,40% )
+   256.422.602.176      instructions:u            #    1,52  insn per cycle           ( +-  2,04% )
+    45.354.869.678      branches:u                #  697,703 M/sec                    ( +-  2,51% )
+        81.481.417      branch-misses:u           #    0,18% of all branches          ( +-  2,64% )
+
+            3,6859 +- 0,0893 seconds time elapsed  ( +-  2,42% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 1' (15 runs):
+
+         43.470,80 msec task-clock:u              #   12,610 CPUs utilized            ( +-  0,68% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           468.611      page-faults:u             #    0,011 M/sec                    ( +-  0,45% )
+   108.937.503.224      cycles:u                  #    2,506 GHz                      ( +-  0,77% )
+   168.791.156.665      instructions:u            #    1,55  insn per cycle           ( +-  1,06% )
+    26.238.476.536      branches:u                #  603,589 M/sec                    ( +-  1,49% )
+        52.715.124      branch-misses:u           #    0,20% of all branches          ( +-  2,28% )
+
+             3,447 +- 0,120 seconds time elapsed  ( +-  3,49% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 2' (15 runs):
+
+         59.073,78 msec task-clock:u              #   17,446 CPUs utilized            ( +-  0,48% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           463.387      page-faults:u             #    0,008 M/sec                    ( +-  0,06% )
+   152.029.163.039      cycles:u                  #    2,574 GHz                      ( +-  0,47% )
+   225.425.586.098      instructions:u            #    1,48  insn per cycle           ( +-  0,71% )
+    38.595.342.974      branches:u                #  653,341 M/sec                    ( +-  0,91% )
+        75.206.960      branch-misses:u           #    0,19% of all branches          ( +-  1,38% )
+
+             3,386 +- 0,113 seconds time elapsed  ( +-  3,33% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 4' (15 runs):
+
+         65.297,40 msec task-clock:u              #   18,385 CPUs utilized            ( +-  0,87% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           461.036      page-faults:u             #    0,007 M/sec                    ( +-  0,34% )
+   169.857.955.475      cycles:u                  #    2,601 GHz                      ( +-  0,94% )
+   241.258.781.807      instructions:u            #    1,42  insn per cycle           ( +-  1,42% )
+    42.072.721.997      branches:u                #  644,325 M/sec                    ( +-  1,78% )
+        83.245.616      branch-misses:u           #    0,20% of all branches          ( +-  1,79% )
+
+             3,552 +- 0,119 seconds time elapsed  ( +-  3,34% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 8' (15 runs):
+
+         73.516,68 msec task-clock:u              #   20,376 CPUs utilized            ( +-  0,93% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           457.254      page-faults:u             #    0,006 M/sec                    ( +-  0,27% )
+   192.375.058.087      cycles:u                  #    2,617 GHz                      ( +-  0,99% )
+   259.454.175.523      instructions:u            #    1,35  insn per cycle           ( +-  1,78% )
+    46.083.928.756      branches:u                #  626,850 M/sec                    ( +-  2,19% )
+        88.010.591      branch-misses:u           #    0,19% of all branches          ( +-  2,20% )
+
+            3,6079 +- 0,0808 seconds time elapsed  ( +-  2,24% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 16' (15 runs):
+
+         86.212,90 msec task-clock:u              #   22,561 CPUs utilized            ( +-  0,93% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           459.818      page-faults:u             #    0,005 M/sec                    ( +-  0,32% )
+   227.718.378.267      cycles:u                  #    2,641 GHz                      ( +-  0,97% )
+   278.404.310.227      instructions:u            #    1,22  insn per cycle           ( +-  1,85% )
+    50.302.511.998      branches:u                #  583,469 M/sec                    ( +-  2,23% )
+        98.860.260      branch-misses:u           #    0,20% of all branches          ( +-  3,17% )
+
+            3,8213 +- 0,0764 seconds time elapsed  ( +-  2,00% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 32' (15 runs):
+
+        107.607,53 msec task-clock:u              #   24,770 CPUs utilized            ( +-  0,64% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           469.801      page-faults:u             #    0,004 M/sec                    ( +-  0,68% )
+   286.869.792.042      cycles:u                  #    2,666 GHz                      ( +-  0,66% )
+   311.915.543.755      instructions:u            #    1,09  insn per cycle           ( +-  1,40% )
+    57.752.847.468      branches:u                #  536,699 M/sec                    ( +-  1,64% )
+       105.644.964      branch-misses:u           #    0,18% of all branches          ( +-  1,50% )
+
+            4,3443 +- 0,0662 seconds time elapsed  ( +-  1,52% )
+
+
+ Performance counter stats for 'mpirun -n 32 /home/lmanrique/mac5742/EP02/mandelbrot_mpi_omp 64' (15 runs):
+
+         69.271,28 msec task-clock:u              #   19,269 CPUs utilized            ( +-  0,85% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           461.994      page-faults:u             #    0,007 M/sec                    ( +-  0,45% )
+   179.766.614.412      cycles:u                  #    2,595 GHz                      ( +-  0,87% )
+   277.248.555.251      instructions:u            #    1,54  insn per cycle           ( +-  1,31% )
+    49.887.509.850      branches:u                #  720,176 M/sec                    ( +-  1,58% )
+       100.460.077      branch-misses:u           #    0,20% of all branches          ( +-  2,08% )
+
+            3,5950 +- 0,0773 seconds time elapsed  ( +-  2,15% )
+

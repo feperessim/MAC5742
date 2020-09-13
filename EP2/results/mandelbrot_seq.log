@@ -1,0 +1,15 @@
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_seq' (15 runs):
+
+         22.229,90 msec task-clock:u              #    0,992 CPUs utilized            ( +-  0,56% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           345.864      page-faults:u             #    0,016 M/sec                    ( +-  1,68% )
+    74.041.715.768      cycles:u                  #    3,331 GHz                      ( +-  0,02% )
+    92.592.047.559      instructions:u            #    1,25  insn per cycle           ( +-  0,00% )
+     7.926.732.580      branches:u                #  356,580 M/sec                    ( +-  0,00% )
+        15.893.491      branch-misses:u           #    0,20% of all branches          ( +-  0,07% )
+
+            22,398 +- 0,124 seconds time elapsed  ( +-  0,55% )
+

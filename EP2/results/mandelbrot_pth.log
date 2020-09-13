@@ -1,0 +1,155 @@
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 1' (15 runs):
+
+         22.951,46 msec task-clock:u              #    0,992 CPUs utilized            ( +-  0,38% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           369.837      page-faults:u             #    0,016 M/sec                    ( +-  0,83% )
+    74.617.964.832      cycles:u                  #    3,251 GHz                      ( +-  0,03% )
+    91.518.609.233      instructions:u            #    1,23  insn per cycle           ( +-  0,00% )
+     7.591.293.471      branches:u                #  330,754 M/sec                    ( +-  0,00% )
+        16.307.832      branch-misses:u           #    0,21% of all branches          ( +-  1,69% )
+
+           23,1363 +- 0,0875 seconds time elapsed  ( +-  0,38% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 2' (15 runs):
+
+         23.544,13 msec task-clock:u              #    1,771 CPUs utilized            ( +-  0,30% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           366.803      page-faults:u             #    0,016 M/sec                    ( +-  0,75% )
+    74.772.661.819      cycles:u                  #    3,176 GHz                      ( +-  0,01% )
+    91.518.743.468      instructions:u            #    1,22  insn per cycle           ( +-  0,00% )
+     7.591.353.031      branches:u                #  322,431 M/sec                    ( +-  0,00% )
+        15.917.619      branch-misses:u           #    0,21% of all branches          ( +-  0,01% )
+
+           13,2944 +- 0,0904 seconds time elapsed  ( +-  0,68% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 4' (15 runs):
+
+         24.304,33 msec task-clock:u              #    3,172 CPUs utilized            ( +-  0,56% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           349.250      page-faults:u             #    0,014 M/sec                    ( +-  0,65% )
+    74.791.790.926      cycles:u                  #    3,077 GHz                      ( +-  0,02% )
+    91.518.804.020      instructions:u            #    1,22  insn per cycle           ( +-  0,00% )
+     7.591.411.655      branches:u                #  312,348 M/sec                    ( +-  0,00% )
+        15.947.628      branch-misses:u           #    0,21% of all branches          ( +-  0,10% )
+
+            7,6622 +- 0,0397 seconds time elapsed  ( +-  0,52% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 8' (15 runs):
+
+         25.201,72 msec task-clock:u              #    5,346 CPUs utilized            ( +-  0,89% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           323.101      page-faults:u             #    0,013 M/sec                    ( +-  2,41% )
+    74.907.403.958      cycles:u                  #    2,972 GHz                      ( +-  0,02% )
+    91.519.480.897      instructions:u            #    1,22  insn per cycle           ( +-  0,00% )
+     7.591.642.145      branches:u                #  301,235 M/sec                    ( +-  0,00% )
+        16.063.793      branch-misses:u           #    0,21% of all branches          ( +-  0,35% )
+
+            4,7138 +- 0,0480 seconds time elapsed  ( +-  1,02% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 16' (15 runs):
+
+         27.426,59 msec task-clock:u              #    8,382 CPUs utilized            ( +-  0,92% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           262.317      page-faults:u             #    0,010 M/sec                    ( +-  0,19% )
+    74.839.850.211      cycles:u                  #    2,729 GHz                      ( +-  0,05% )
+    91.519.050.776      instructions:u            #    1,22  insn per cycle           ( +-  0,00% )
+     7.591.499.030      branches:u                #  276,793 M/sec                    ( +-  0,00% )
+        15.944.209      branch-misses:u           #    0,21% of all branches          ( +-  0,09% )
+
+            3,2722 +- 0,0526 seconds time elapsed  ( +-  1,61% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 32' (15 runs):
+
+         30.122,79 msec task-clock:u              #   12,654 CPUs utilized            ( +-  0,91% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           193.246      page-faults:u             #    0,006 M/sec                    ( +-  8,07% )
+    77.120.943.395      cycles:u                  #    2,560 GHz                      ( +-  1,06% )
+    91.521.285.008      instructions:u            #    1,19  insn per cycle           ( +-  0,00% )
+     7.591.644.948      branches:u                #  252,023 M/sec                    ( +-  0,00% )
+        16.097.547      branch-misses:u           #    0,21% of all branches          ( +-  0,16% )
+
+            2,3806 +- 0,0229 seconds time elapsed  ( +-  0,96% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 64' (15 runs):
+
+         38.954,79 msec task-clock:u              #   19,591 CPUs utilized            ( +-  0,82% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           131.983      page-faults:u             #    0,003 M/sec                    ( +-  0,00% )
+    97.595.076.289      cycles:u                  #    2,505 GHz                      ( +-  0,63% )
+    91.519.135.612      instructions:u            #    0,94  insn per cycle           ( +-  0,00% )
+     7.591.217.714      branches:u                #  194,873 M/sec                    ( +-  0,00% )
+        16.104.105      branch-misses:u           #    0,21% of all branches          ( +-  0,56% )
+
+            1,9884 +- 0,0302 seconds time elapsed  ( +-  1,52% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 128' (15 runs):
+
+         40.320,25 msec task-clock:u              #   20,385 CPUs utilized            ( +-  0,58% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           132.119      page-faults:u             #    0,003 M/sec                    ( +-  0,00% )
+   101.562.282.025      cycles:u                  #    2,519 GHz                      ( +-  0,39% )
+    91.530.079.805      instructions:u            #    0,90  insn per cycle           ( +-  0,00% )
+     7.593.220.570      branches:u                #  188,323 M/sec                    ( +-  0,00% )
+        16.790.136      branch-misses:u           #    0,22% of all branches          ( +-  0,44% )
+
+            1,9779 +- 0,0231 seconds time elapsed  ( +-  1,17% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 256' (15 runs):
+
+         40.397,50 msec task-clock:u              #   21,560 CPUs utilized            ( +-  0,34% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           132.395      page-faults:u             #    0,003 M/sec                    ( +-  0,00% )
+   101.375.974.236      cycles:u                  #    2,509 GHz                      ( +-  0,09% )
+    91.520.253.499      instructions:u            #    0,90  insn per cycle           ( +-  0,00% )
+     7.591.459.117      branches:u                #  187,919 M/sec                    ( +-  0,00% )
+        16.169.455      branch-misses:u           #    0,21% of all branches          ( +-  0,41% )
+
+            1,8737 +- 0,0229 seconds time elapsed  ( +-  1,22% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 512' (15 runs):
+
+         41.357,12 msec task-clock:u              #   21,999 CPUs utilized            ( +-  0,21% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           132.943      page-faults:u             #    0,003 M/sec                    ( +-  0,00% )
+   103.748.807.381      cycles:u                  #    2,509 GHz                      ( +-  0,02% )
+    91.565.472.339      instructions:u            #    0,88  insn per cycle           ( +-  0,00% )
+     7.599.733.924      branches:u                #  183,759 M/sec                    ( +-  0,00% )
+        18.276.682      branch-misses:u           #    0,24% of all branches          ( +-  0,46% )
+
+            1,8800 +- 0,0191 seconds time elapsed  ( +-  1,02% )
+
+
+ Performance counter stats for '/home/lmanrique/mac5742/EP02/mandelbrot_pth 1024' (15 runs):
+
+         40.816,91 msec task-clock:u              #   21,669 CPUs utilized            ( +-  0,24% )
+                 0      context-switches:u        #    0,000 K/sec                  
+                 0      cpu-migrations:u          #    0,000 K/sec                  
+           134.006      page-faults:u             #    0,003 M/sec                    ( +-  0,03% )
+   101.617.649.923      cycles:u                  #    2,490 GHz                      ( +-  0,05% )
+    91.523.311.717      instructions:u            #    0,90  insn per cycle           ( +-  0,00% )
+     7.592.206.370      branches:u                #  186,006 M/sec                    ( +-  0,00% )
+        16.361.250      branch-misses:u           #    0,22% of all branches          ( +-  0,52% )
+
+            1,8836 +- 0,0167 seconds time elapsed  ( +-  0,89% )
+
